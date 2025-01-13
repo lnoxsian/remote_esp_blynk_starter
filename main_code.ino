@@ -17,7 +17,7 @@ BLYNK_WRITE(V0) // on relay is V0
   if(virtual_pin0 == 1)
   {
     digitalWrite(12, LOW);
-    Serial.println("on relay is on for 10s");
+    Serial.println("on relay is on for 1.5s");
     delay(wait_time);
     Serial.println("on relay is off now!!");
     digitalWrite(12, HIGH);
@@ -34,7 +34,7 @@ BLYNK_WRITE(V1) // off relay is V1
   if(virtual_pin1 == 1)
   {
     digitalWrite(14, LOW);
-    Serial.println("off relay is on for 10s");
+    Serial.println("off relay is on for 1.5s");
     delay(wait_time);
     Serial.println("off relay is off now!!");
     digitalWrite(14, HIGH);
