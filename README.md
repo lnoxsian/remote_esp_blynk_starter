@@ -7,8 +7,8 @@ open up your choice of programmer such as ArduinoIDE/CLI or esptool for flashing
 open up the code and place all the *.h header files in the same dir 
 open and edit the main_code.ino file and 
 ```c++
-#define BLYNK_TEMPLATE_ID "template_id" \\ replace with the respective template id
-#define BLYNK_TEMPLATE_NAME "template_name" \\ replace with the respective template name
+#define BLYNK_TEMPLATE_ID "template_id" // replace with the respective template id
+#define BLYNK_TEMPLATE_NAME "template_name" // replace with the respective template name
 ```
 try to build the firmware or verify if there are any errors prior to flashing 
 finally flash the firware with 
